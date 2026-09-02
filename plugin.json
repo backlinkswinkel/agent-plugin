@@ -1,0 +1,20 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.1.0/plugin.schema.json",
+  "name": "backlinkswinkel",
+  "version": "0.1.0",
+  "description": "Zoek in de Backlinkswinkel-catalogus van Nederlandse websites, bestel backlinks na bevestiging en volg de plaatsing — rechtstreeks vanuit je AI-assistent.",
+  "author": {
+    "name": "Backlinkswinkel",
+    "email": "info@backlinkswinkel.nl",
+    "url": "https://backlinkswinkel.nl/"
+  },
+  "homepage": "https://backlinkswinkel.nl/account/api/",
+  "repository": "https://github.com/backlinkswinkel/agent-plugin",
+  "license": "MIT",
+  "keywords": [
+    "backlinkswinkel",
+    "backlinks kopen",
+    "nederlandse backlinks",
+    "linkbuilding nl"
+  ]
+}

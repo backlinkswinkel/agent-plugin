@@ -1,0 +1,43 @@
+{
+  "name": "backlinkswinkel",
+  "version": "0.1.0",
+  "description": "Zoek in de Backlinkswinkel-catalogus van Nederlandse websites, bestel backlinks na bevestiging en volg de plaatsing — rechtstreeks vanuit je AI-assistent.",
+  "author": {
+    "name": "Backlinkswinkel",
+    "email": "info@backlinkswinkel.nl",
+    "url": "https://backlinkswinkel.nl/"
+  },
+  "homepage": "https://backlinkswinkel.nl/account/api/",
+  "repository": "https://github.com/backlinkswinkel/agent-plugin",
+  "license": "MIT",
+  "keywords": [
+    "backlinkswinkel",
+    "backlinks kopen",
+    "nederlandse backlinks",
+    "linkbuilding nl"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Backlinkswinkel",
+    "shortDescription": "Zoek en bestel Nederlandse backlinks",
+    "longDescription": "Doorzoek de catalogus van Nederlandse websites op onderwerp, taal en DR, bestel een backlink na jouw bevestiging en volg review en publicatie. Betalen gebeurt via een prepaid saldo dat je zelf oplaadt.",
+    "developerName": "Backlinkswinkel",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://backlinkswinkel.nl/",
+    "privacyPolicyURL": "https://backlinkswinkel.nl/privacy/",
+    "termsOfServiceURL": "https://backlinkswinkel.nl/algemene-voorwaarden/",
+    "defaultPrompt": [
+      "Zoek vijf Nederlandse sites over wonen met DR 30+ voor een backlink.",
+      "Wat is mijn saldo bij Backlinkswinkel?",
+      "Wat is de status van mijn laatste backlinkbestelling?"
+    ],
+    "brandColor": "#1D4ED8",
+    "logo": "./assets/logo.png",
+    "composerIcon": "./assets/composer-icon.png"
+  },
+  "mcpServers": "./.mcp.json"
+}
