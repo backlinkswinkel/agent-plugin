@@ -1,0 +1,26 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.backlinkswinkel/backlinks",
+  "title": "Backlinkswinkel",
+  "description": "Search Dutch sites in the Backlinkswinkel catalogue, order backlinks after confirmation, track them.",
+  "version": "0.1.0",
+  "websiteUrl": "https://backlinkswinkel.nl/",
+  "repository": {
+    "url": "https://github.com/backlinkswinkel/agent-plugin",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://backlinkswinkel.nl/mcp",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Bearer blw_... API key from backlinkswinkel.nl/account/api",
+          "isRequired": true,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}
