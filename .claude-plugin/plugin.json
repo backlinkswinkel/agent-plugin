@@ -1,7 +1,7 @@
 {
   "name": "backlinkswinkel",
-  "version": "0.1.0",
-  "description": "Zoek in de Backlinkswinkel-catalogus van Nederlandse websites, bestel backlinks na bevestiging en volg de plaatsing — rechtstreeks vanuit je AI-assistent.",
+  "version": "0.2.0",
+  "description": "Search 1,800+ Dutch websites by niche, language and Domain Rating, order a backlink placement from prepaid credit after your confirmation, and track it until the link is live. Nederlandse backlinks zoeken en bestellen vanuit je AI-assistent.",
   "author": {
     "name": "Backlinkswinkel",
     "email": "info@backlinkswinkel.nl",
@@ -11,10 +11,15 @@
   "repository": "https://github.com/backlinkswinkel/agent-plugin",
   "license": "MIT",
   "keywords": [
-    "backlinkswinkel",
+    "backlinks",
+    "buy backlinks",
+    "link building",
+    "dutch backlinks",
+    "seo",
+    "guest posts",
     "backlinks kopen",
     "nederlandse backlinks",
-    "linkbuilding nl"
+    "linkbuilding"
   ],
   "skills": "./skills/",
   "mcpServers": "./.mcp.json"

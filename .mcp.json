@@ -2,10 +2,7 @@
   "mcpServers": {
     "backlinkswinkel": {
       "type": "http",
-      "url": "https://backlinkswinkel.nl/mcp",
-      "headers": {
-        "Authorization": "Bearer ${BACKLINKSWINKEL_API_KEY}"
-      }
+      "url": "https://backlinkswinkel.nl/mcp"
     }
   }
 }
