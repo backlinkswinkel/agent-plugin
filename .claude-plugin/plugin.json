@@ -22,5 +22,6 @@
     "linkbuilding"
   ],
   "skills": "./skills/",
-  "mcpServers": "./.mcp.json"
+  "mcpServers": "./.mcp.json",
+  "privacyPolicyUrl": "https://backlinkswinkel.nl/privacy/"
 }
