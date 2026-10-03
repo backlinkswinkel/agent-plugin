@@ -11,6 +11,7 @@ Volg deze volgorde en sla geen stap over:
 2. `search_domains` — zoek op onderwerp, taal en minimale DR. Gebruik `limit` en `offset` tot een pagina minder rijen bevat dan `limit`. Toon een korte shortlist: domein, DR, prijs, onderwerp.
 3. `get_domain` — ververs prijs en metrics van het gekozen domein vlak vóór het bestellen.
 4. `order_backlink` — **alleen na een expliciet "ja" van de gebruiker** op domein, anchor, doel-URL en prijs. Eén bestelling per bevestiging.
+   Bij een timeout of onbekende uitkomst: geef geen nieuwe bestelopdracht. De transportlaag mag hetzelfde JSON-RPC-request met dezelfde request-ID en argumenten herhalen; de server houdt die bestelling gelijk. Een nieuwe toolaanroep krijgt een nieuwe request-ID en kan opnieuw saldo afschrijven, ook voor hetzelfde domein. Controleer bij twijfel de bestelling in het Backlinkswinkel-account of vraag support om de uitkomst te bevestigen. Meld pas succes na een teruggelezen orderresultaat.
 5. `order_status` — volg review en publicatie; geef de plaatsings-URL door zodra die er is.
 6. `topup` — maak alleen een betaallink; de gebruiker opent en betaalt die zelf. Voer nooit zelf een betaling uit.
 
