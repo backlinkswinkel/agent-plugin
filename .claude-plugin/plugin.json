@@ -1,6 +1,7 @@
 {
   "name": "backlinkswinkel",
-  "version": "0.2.0",
+  "displayName": "BacklinksWinkel",
+  "version": "0.2.1",
   "description": "Search 1,800+ Dutch websites by niche, language and Domain Rating, order a backlink placement from prepaid credit after your confirmation, and track it until the link is live. Nederlandse backlinks zoeken en bestellen vanuit je AI-assistent.",
   "author": {
     "name": "Backlinkswinkel",
@@ -23,5 +24,6 @@
   ],
   "skills": "./skills/",
   "mcpServers": "./.mcp.json",
-  "privacyPolicyUrl": "https://backlinkswinkel.nl/privacy/"
+  "privacyPolicyUrl": "https://backlinkswinkel.nl/privacy/",
+  "icon": "assets/icon.png"
 }
